@@ -3,11 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 import { EnvironmentConfiguration } from 'src/app/models/environment-configuration';
+import { API_KEY } from './environment.prod';
 
 export const environment: EnvironmentConfiguration = {
   env_name: 'dev',
   production: false,
-  apiKey: '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',
+  apiKey: API_KEY,
 };
 
 /*
