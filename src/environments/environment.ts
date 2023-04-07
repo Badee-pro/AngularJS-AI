@@ -7,7 +7,7 @@ import { EnvironmentConfiguration } from 'src/app/models/environment-configurati
 export const environment: EnvironmentConfiguration = {
   env_name: 'dev',
   production: false,
-  apiKey: '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',
+  apiKey: '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',
 };
 
 /*
