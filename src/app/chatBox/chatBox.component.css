@@ -1,0 +1,49 @@
+.person {
+  color: #343a40;
+  margin: 15px;
+}
+
+.bot {
+  color: #ef4b4c;
+  margin: 15px;
+}
+
+.frame-box {
+  margin-top: 30px;
+  width: 90%;
+  padding: 20px;
+  background-color: rgb(217, 217, 217);
+  height: 300px;
+  border-radius: 20px;
+  overflow-y: scroll;
+  border-radius: 20px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* custom scrollbar */
+.frame-box::-webkit-scrollbar {
+  width: 20px;
+}
+
+.frame-box::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.frame-box::-webkit-scrollbar-thumb {
+  background-color: #687072;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+.frame-box::-webkit-scrollbar-thumb:hover {
+  background-color: #7b898b;
+}
+
+#loadImg {
+  margin: 15px;
+}
+
+.padding {
+  padding: 5px;
+}
